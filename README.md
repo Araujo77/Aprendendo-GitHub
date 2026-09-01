@@ -12,5 +12,17 @@
 # ⭐ Fork
 É uma cópia de um repositório (um projeto de software) de outra pessoa para o seu próprio espaço no GitHub. Permitindo que faça alterações no código sem afetar o projeto final. Se você quiser contribuir de colta, pode enviar um "pull request" para que o dono do projeto original considere suas mudanças e as incorpore.
 
+## ls
+Ver o que tem dentro da pasta
 
+## git init
+Para iniciar o repositório dentro do Open Git Bash Here
+    
+## git branch -M main 
+Sair da Branch (master) e entrar na Branch (main)
 
+## git remote add origin
+Adicionar de forma remota o repositório
+
+## git push -u origin main
+Empurrar tudo que temos no nosso repositório local vamos colocar no repositório remoto
