@@ -64,9 +64,17 @@ Entrar na Branch
 Marcar versões específicas dentro do código
 
 ## -a <== anotação
-## git tag -a v1.1 -m "Versao 1.1"  <== Definir a versão 
-## git push origin v1.1  <== Puxar a tag para o repositório remoto
+## git tag -a v1.1 -m "Versao 1.1" 
+Definir a versão 
+
+## git push origin v1.1 
+Puxar a tag para o repositório remoto
+
+# Releases
+
 ##
+
+
 
 
 
