@@ -72,10 +72,33 @@ Puxar a tag para o repositório remoto
 
 # Releases
 
-##
+Um Release é uma versão do software publicada no repositório, geralmente associada a uma tag do Git.
+Facilitar que usuários e desenvolvedores baixem uma versão estável do projeto sem precisar compilar ou navegar pelo histórico do código.
 
+Conteúdo típico:
 
+Código fonte empacotado em ZIP ou tarball.
+Notas de versão (changelog) explicando mudanças, correções e novidades.
+Binários ou executáveis prontos para uso.
+Links para documentação ou recursos adicionais.
 
+# Gists 
+
+São “mini-repositórios” que permitem salvar e compartilhar pedaços de código ou texto.
+Facilitar a troca de exemplos, snippets e anotações sem precisar criar um repositório completo.
+Podem ser públicos (qualquer pessoa pode ver) ou secretos (apenas quem tiver o link pode acessar).
+
+# Issues
+
+São registros de problemas, sugestões ou tarefas relacionadas ao projeto.
+Facilitar a comunicação e o acompanhamento de atividades entre desenvolvedores e usuários.
+Cada issue é uma página com título, descrição, comentários e etiquetas.
+
+# Wikis
+
+Uma wiki é uma coleção de páginas editáveis que servem para documentar o projeto.
+Centralizar instruções, guias, tutoriais e informações técnicas para facilitar o uso e a contribuição.
+Cada página é escrita em Markdown, o que permite incluir texto formatado, links, imagens e exemplos de código.
 
 
 
