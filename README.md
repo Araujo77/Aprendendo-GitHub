@@ -101,4 +101,27 @@ Centralizar instruções, guias, tutoriais e informações técnicas para facili
 Cada página é escrita em Markdown, o que permite incluir texto formatado, links, imagens e exemplos de código.
 
 
+# Autenticando pelo Terminal
+
+## git config --global user.name "Araujo77"
+
+Configuração de forma global o meu usuário
+
+
+## git config --global user.email "nanda.araujo7@hotmail.com"
+
+Configurar o meu e-mail cadastrado no github
+
+## git config --list
+Retornara uma lista conas configurações corretas
+
+## git push origin main
+Vai abrir a tela para logar no Github
+
+
+
+
+
+
+
 
