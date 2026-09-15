@@ -12,6 +12,17 @@
 # ⭐ Fork
 É uma cópia de um repositório (um projeto de software) de outra pessoa para o seu próprio espaço no GitHub. Permitindo que faça alterações no código sem afetar o projeto final. Se você quiser contribuir de colta, pode enviar um "pull request" para que o dono do projeto original considere suas mudanças e as incorpore.
 
+# ⭐ Markdown
+
+# Teste 1
+## Teste 2
+### Teste 3
+#### Teste 4
+##### Teste 5
+###### Teste 6
+
+
+
 # Comando básicos no GitHub
 
 
@@ -117,6 +128,8 @@ Retornara uma lista conas configurações corretas
 
 ## git push origin main
 Vai abrir a tela para logar no Github
+
+
 
 
 
