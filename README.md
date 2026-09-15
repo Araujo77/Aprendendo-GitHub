@@ -82,9 +82,10 @@ ___Teste___
 
 
 
+📌 Diminuir a imagem no git 
 
-
-
+    //<img src="Link da imagem escolhida"
+    width="100px">
 
 
 
