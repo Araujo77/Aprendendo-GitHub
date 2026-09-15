@@ -14,12 +14,78 @@
 
 # ⭐ Markdown
 
+📌 Estrutura de Títulos: 
+
 # Teste 1
 ## Teste 2
 ### Teste 3
 #### Teste 4
 ##### Teste 5
 ###### Teste 6
+
+
+
+📌 Itálico:
+
+*Teste* ou _Teste_
+
+
+📌 Negrito:
+
+**Teste** ou __Teste__
+
+
+📌 Negrito e Itálico:
+
+___Teste___
+
+
+📌 Lista não ordenada:
+
+- Teste 1
+- Teste 2
+  - Sublista Teste 3 (Dois espaços e um -)
+
+ 
+📌 Lista ordenada:
+  
+1. Teste 1
+2. Teste 2
+  1. Sublista teste
+
+
+ 📌 Link:
+
+  [Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
+  
+![Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
+
+
+📌 Crases:
+
+`system.out.println();`
+
+```system.out.println();system.out.println();system.out.println();system.out.println();system.out.println();```
+
+📌 Citações:
+
+> Texto exemplo
+
+
+📌 Tabelas
+(Ao colocar traços se transforma em uma linha)
+
+| Cbeçalho 1 | Cabeçalho 2 |
+|----------- | ------------|
+| Teste 1    | Teste 2     |
+| Teste 3    | Teste 4     |
+
+
+
+
+
+
+
 
 
 
