@@ -196,6 +196,33 @@ Retornara uma lista conas configurações corretas
 ## git push origin main
 Vai abrir a tela para logar no Github
 
+<br>
+
+## Desafios de Código - Formação GitHub Certification
+
+**1- Clonando Repositórios**
+
+   # Recebe a URL do repositório como entrada
+repository_url = input()
+
+# Escreve o comando Git para clonar o repositório
+git_command = "git clone"
+
+# Imprime o comando Git seguido da URL do repositório recebida como entrada
+print(git_command, repository_url)
+
+**2- Adicionando um Arquivo**
+   - 
+
+**3- Criando uma Branch**
+   - 
+
+**4- Alterando uma Branch**
+   - 
+
+**5- Mesclando uma Branch**
+   - 
+
 
 
 
