@@ -238,7 +238,7 @@ Cada página é escrita em Markdown, o que permite incluir texto formatado, link
 
 <br>
 
-# <p align="center">🎯__Desafios de Código - Formação GitHub Certification__
+# <p align="center">🎯 __Desafios de Código - Formação GitHub Certification__
 
  **1- Clonando Repositórios**
  
