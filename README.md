@@ -1,204 +1,244 @@
-# ⭐ Branches
-É uma linha de desenvolvimento separada no controle de versão. Permitindo que a gente trabalhe em modificações no código sem afetar diretamente o código principal (geralmente chamado de main ou master) Depois de concluir as alterações em uma branch, você pode mesclar essas alterações de volta ao branch principal.
 
-
-# ⭐ Pull Resquest (PR)
-É um pedido de mesclagem, recurso comum em plataformas de hospedagem de código-fonte colaborativo, como o GitHub. Ele propoe alterações em um repositório e solicita que essas alterações sejam revisadas e mescladas (merged) no código principal.
-
-
-# ⭐ Merge
-É uma operação no controle de versão que combina as alterações de duas branches diferentes. Quando concluímos o desenvolvimento em uma branch e desejamos incorporar essas alterações de volta a brach principal, realizamos uma merge.
-
-# ⭐ Fork
-É uma cópia de um repositório (um projeto de software) de outra pessoa para o seu próprio espaço no GitHub. Permitindo que faça alterações no código sem afetar o projeto final. Se você quiser contribuir de colta, pode enviar um "pull request" para que o dono do projeto original considere suas mudanças e as incorpore.
-
-# ⭐ Markdown
-
-📌 Estrutura de Títulos: 
-
-# Teste 1
-## Teste 2
-### Teste 3
-#### Teste 4
-##### Teste 5
-###### Teste 6
+ # <p align="center">__Anotações do Curso na Dio Sobre Github__ 
 
 
 
-📌 Itálico:
 
-*Teste* ou _Teste_
-
-
-📌 Negrito:
-
-**Teste** ou __Teste__
+### ⭐ __Branches__
+- É uma linha de desenvolvimento separada no controle de versão. Permitindo que a gente trabalhe em modificações no código sem afetar diretamente o código principal (geralmente chamado de main ou master) Depois de concluir as alterações em uma branch, você pode mesclar essas alterações de volta ao branch principal.
 
 
-📌 Negrito e Itálico:
+### ⭐ __Pull Resquest (PR)__
+- É um pedido de mesclagem, recurso comum em plataformas de hospedagem de código-fonte colaborativo, como o GitHub. Ele propoe alterações em um repositório e solicita que essas alterações sejam revisadas e mescladas (merged) no código principal.
 
-___Teste___
+
+### ⭐ __Merge__
+- É uma operação no controle de versão que combina as alterações de duas branches diferentes. Quando concluímos o desenvolvimento em uma branch e desejamos incorporar essas alterações de volta a brach principal, realizamos uma merge.
+
+### ⭐ __Fork__
+- É uma cópia de um repositório (um projeto de software) de outra pessoa para o seu próprio espaço no GitHub. Permitindo que faça alterações no código sem afetar o projeto final. Se você quiser contribuir de colta, pode enviar um "pull request" para que o dono do projeto original considere suas mudanças e as incorpore.
+
+### ⭐ __Markdown__
+
+<br>
+
+📌 __Estrutura de Títulos:__ 
+
+       # Teste 1
+       ## Teste 2
+       ### Teste 3
+       #### Teste 4
+       ##### Teste 5
+       ###### Teste 6
 
 
-📌 Lista não ordenada:
+📌 __Itálico:__
 
-- Teste 1
-- Teste 2
-  - Sublista Teste 3 (Dois espaços e um -)
+       *Teste* ou _Teste_
+
+
+📌  __Negrito:__
+
+       **Teste** ou __Teste__
+
+
+📌 __Negrito e Itálico:__
+
+       ___Teste___
+
+
+📌 __Lista não ordenada:__
+
+       - Teste 1
+       - Teste 2
+         - Sublista Teste 3 (Dois espaços e um -)
 
  
-📌 Lista ordenada:
+📌 __Lista ordenada:__
   
-1. Teste 1
-2. Teste 2
-  1. Sublista teste
+       1. Teste 1
+       2. Teste 2
+         1. Sublista teste
 
 
- 📌 Link:
+ 📌 __Link:__
 
-  [Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
+         [Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
   
-![Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
+  <br>
+
+       ![Texto da imagem](https://static.escolakids.uol.com.br/2024/07/as-oito-fases-da-lua-ilustradas-em-ceu-escuro-sobre-arvores.jpg)
 
 
-📌 Crases:
+📌 __Crases:__
 
-`system.out.println();`
+       `system.out.println();`
 
-```system.out.println();system.out.println();system.out.println();system.out.println();system.out.println();```
+<br>
 
-📌 Citações:
+       ```system.out.println();system.out.println();system.out.println();system.out.println();system.out.println();```
 
-> Texto exemplo
+📌 __Citações:__
+
+       > Texto exemplo
 
 
-📌 Tabelas
+📌 __Tabelas__
+
 (Ao colocar traços se transforma em uma linha)
 
-| Cbeçalho 1 | Cabeçalho 2 |
-|----------- | ------------|
-| Teste 1    | Teste 2     |
-| Teste 3    | Teste 4     |
+       | Cbeçalho 1 | Cabeçalho 2 |
+       |------------| ------------|
+       | Teste 1    | Teste 2     |
+       | Teste 3    | Teste 4     |
 
 
 
-📌 Diminuir a imagem no git 
+📌 __Diminuir a imagem no git__
 
-    //<img src="Link da imagem escolhida"
-    width="100px">
-
-
+           //<img src="Link da imagem escolhida"
+           width="100px">
 
 
-# Comando básicos no GitHub
 
 
-## ls
-Ver o que tem dentro da pasta.
+# <p align="center">__Comando básicos no GitHub__
 
-## git init
-Para iniciar o repositório dentro do Open Git Bash Here.
-    
-## git branch -M main 
-Sair da Branch (master) e entrar na Branch (main).
+- Ver o que tem dentro da pasta.
 
-## git commit -m "" + o nome do repositório
+        ls
+
+- Iniciar o repositório dentro do Open Git Bash Here.
+
+        git init
+
+- Sair da Branch (master) e entrar na Branch (main).
+
+        git branch -M main 
+
+- Registrar o nome do repositório
+
+        git commit -m "meu-projeto"
 
 
-## git remote add origin
-Adicionar de forma remota o repositório.
+- Adicionar de forma remota o repositório.
 
-## git push -u origin main
-Empurrar tudo que temos no nosso repositório local vamos colocar no repositório remoto.
+        git remote add origin
 
-## git clone 
-Para puxar um repositório do GitHub para a máquina local.
+- Empurrar tudo que temos no nosso repositório local vamos colocar no repositório remoto.
 
-## cd + o nome do repositório no GitHub
-Continuar dentro deste repositório.
+        git push -u origin main
 
-## ctrl + C
-O terminal encerrra
+- Para puxar um repositório do GitHub para a máquina local.
 
-## git status
-Verificar o que tem dentro das pastas ou terminal
+        git clone 
 
-## git add
-Adicionar a alteração realizada no repositório.
+- Continuar dentro deste repositório.
 
-## git push origin main
-Ele informa todas as alterações realizadas anteriormente.
+        cd meu-projeto
 
-## git brach + nome 
-Criar Brach
+- O terminal encerrra
 
-## git checkout 
-Entrar na Branch
+        ctrl + C
 
-## git merge + o nome da versão
+- Verificar o que tem dentro das pastas ou terminal
 
-# TAG's
+        git status
 
-Marcar versões específicas dentro do código
+- Adicionar a alteração realizada no repositório.
 
-## -a <== anotação
-## git tag -a v1.1 -m "Versao 1.1" 
-Definir a versão 
+        git add
 
-## git push origin v1.1 
-Puxar a tag para o repositório remoto
+- Ele informa todas as alterações realizadas anteriormente.
 
-# Releases
+        git push origin main
+
+- Cria uma nova branch chamada minha-feature no repositório local.
+
+        git branch <nome-da-branch>
+
+- Entrar na Branch
+
+        git checkout 
+
+- Mescla uma branch ou versão especificada com a branch atual em que você 
+
+        git merge <nome-da-versao>
+
+- São usadas para marcar versões específicas dentro do código
+ 
+    -  tags
+
+      git tag -a v1.0 -m "Versão 1.0 estável"
+
+- Definir a versão 
+
+        -a <== anotação
+       git tag -a v1.1 -m "Versao 1.1" 
+
+- Puxar a tag para o repositório remoto
+
+      git push origin v1.1 
+
+
+
+# <p align="center">__Releases__
 
 Um Release é uma versão do software publicada no repositório, geralmente associada a uma tag do Git.
 Facilitar que usuários e desenvolvedores baixem uma versão estável do projeto sem precisar compilar ou navegar pelo histórico do código.
 
-Conteúdo típico:
+ Conteúdo típico:
 
-Código fonte empacotado em ZIP ou tarball.
+ Código fonte empacotado em ZIP ou tarball.
 Notas de versão (changelog) explicando mudanças, correções e novidades.
 Binários ou executáveis prontos para uso.
 Links para documentação ou recursos adicionais.
 
-# Gists 
+# <p align="center">__Gists__
 
 São “mini-repositórios” que permitem salvar e compartilhar pedaços de código ou texto.
 Facilitar a troca de exemplos, snippets e anotações sem precisar criar um repositório completo.
 Podem ser públicos (qualquer pessoa pode ver) ou secretos (apenas quem tiver o link pode acessar).
 
-# Issues
+# <p align="center">__Issues__
 
 São registros de problemas, sugestões ou tarefas relacionadas ao projeto.
-Facilitar a comunicação e o acompanhamento de atividades entre desenvolvedores e usuários.
-Cada issue é uma página com título, descrição, comentários e etiquetas.
+ Facilitar a comunicação e o acompanhamento de atividades entre desenvolvedores e usuários.
+ Cada issue é uma página com título, descrição, comentários e etiquetas.
 
-# Wikis
+# <p align="center">__Wikis__
 
 Uma wiki é uma coleção de páginas editáveis que servem para documentar o projeto.
 Centralizar instruções, guias, tutoriais e informações técnicas para facilitar o uso e a contribuição.
 Cada página é escrita em Markdown, o que permite incluir texto formatado, links, imagens e exemplos de código.
 
+<br>
 
-# Autenticando pelo Terminal
-
-## git config --global user.name "Araujo77"
-
-Configuração de forma global o meu usuário
+# <p align="center">__Autenticando pelo Terminal__
 
 
-## git config --global user.email "nanda.araujo7@hotmail.com"
 
-Configurar o meu e-mail cadastrado no github
+### Configuração de forma global o meu usuário
 
-## git config --list
-Retornara uma lista conas configurações corretas
+    git config --global user.name "Araujo77"
 
-## git push origin main
-Vai abrir a tela para logar no Github
+### Configurar o meu e-mail cadastrado no github
+
+    git config --global user.email "nanda.araujo7@hotmail.com"
+
+### Retornara uma lista conas configurações corretas
+
+    git config --list
+
+### Vai abrir a tela para logar no Github
+
+    git push origin main
+
+
 
 <br>
 
-# 🎯__Desafios de Código - Formação GitHub Certification__
+# <p align="center">🎯__Desafios de Código - Formação GitHub Certification__
 
  **1- Clonando Repositórios**
  
