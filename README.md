@@ -198,31 +198,78 @@ Vai abrir a tela para logar no Github
 
 <br>
 
-## Desafios de Código - Formação GitHub Certification
+# 🎯__Desafios de Código - Formação GitHub Certification__
 
-**1- Clonando Repositórios**
+ **1- Clonando Repositórios**
+ 
+- Recebe a URL do repositório como entrada
+      
+        repository_url = input()
 
-   # Recebe a URL do repositório como entrada
-repository_url = input()
+- Escreve o comando Git para clonar o repositório
 
-# Escreve o comando Git para clonar o repositório
-git_command = "git clone"
+       git_command = "git clone"
 
-# Imprime o comando Git seguido da URL do repositório recebida como entrada
-print(git_command, repository_url)
+- Imprime o comando Git seguido da URL do repositório recebida como entrada
+
+      print(git_command, repository_url)
+
+<br>
 
 **2- Adicionando um Arquivo**
-   - 
+- Recebe os nomes dos arquivos ou o padrão para adição como entrada
+
+      files_to_add = input()
+
+- Escreve o comando Git para adicionar os arquivos especificados
+
+      git_command = "git add"
+
+- Imprime o comando Git seguido dos nomes dos arquivos ou do padrão recebido como entrada
+
+      print(git_command, files_to_add)
+
+<br>
 
 **3- Criando uma Branch**
-   - 
+- Recebe o nome da nova branch como entrada
+
+      new_branch_name = input()
+
+- Escreve o comando Git para criar a nova branch
+
+      git_command = "git branch"
+
+- Imprime o comando Git seguido do nome da nova branch recebido como entrada
+
+      print(git_command, new_branch_name)
+
+<br>
 
 **4- Alterando uma Branch**
-   - 
+- Recebe o nome da branch como entrada
 
-**5- Mesclando uma Branch**
-   - 
+      branch_name = input()
 
+- Escreve o comando Git para mudar para a branch especificada
+
+      git_command = "git checkout"
+
+- Imprime o comando Git seguido do nome da branch recebido como entrada
+             
+      print(git_command, branch_name)
+<br>
+
+**5- Mesclando uma Branch** 
+- Recebe o nome da branch a ser mesclada como entrada
+
+      branch_to_merge = input()
+- Escreve o comando Git para mesclar a branch especificada com a branch atual
+
+      git_command = "git merge"
+- Imprime o comando Git seguido do nome da branch a ser mesclada recebido como entrada
+
+      print(git_command, branch_to_merge)       
 
 
 
